@@ -1,0 +1,153 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+    
+}
+.navigation {
+    background-color: #F1D3CD;
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    cursor: pointer;
+}
+.nav {
+    text-decoration: none;
+    padding: 20px;
+    align-items: right;
+    display: inline-block;
+    cursor: pointer;
+}
+.top {
+    font-size: 20;
+    position: absolute;
+    right: 20px;
+}
+.hero {
+    background-color: #F1D3CD;
+}
+.hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+h2 {
+    font-size: 120px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    font-family: 'poppins', arial, sans-serif;
+    color:  #0D7A62;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.intro {
+    background-color: #0D7A62; 
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    padding: 50px;
+}
+.intro h3 {
+    font-size: 70px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F1D3CD;
+}
+.intro p {
+    font-size: 20px;
+    font-family: 'poppins', arial, sans-serif;
+    color:  #F1D3CD;
+}
+.detail {
+    background-color: #F1D3CD;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 6fr;
+}
+.text h3 {
+    font-size: 70px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.text p {
+    font-size: 15px;
+    font-family: 'poppins', arial, sans-serif;
+}
+.pictures img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.research {
+    margin-top: 100px;
+}
+.definition {
+    margin-top: 250px;
+}
+.ideation {
+    margin-top: 100px;
+}
+.prototyping {
+    margin-top: 200px;
+}
+.testing {
+    margin-top: 250px;
+}
+.finish {
+    margin-top: 100px;
+}
+.allScreens {
+    background-color: #F1D3CD;
+}
+.last {
+    background-color: #0D7A62; 
+    display: flex;
+    align-items: center;
+    height: 71px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+.last a {
+    margin-left: 20px;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 30px;
+    color: #F1D3CD;
+}
+.footer {
+    height: 145px;
+    background-color: black;
+    color: #F1D3CD;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+}
+.footer a {
+    padding-left: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600){
+    .intro {
+        background-color: #0D7A62; 
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+    }
+}
